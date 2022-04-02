@@ -1,0 +1,115 @@
+html {
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 50%, rgba(148, 187, 233, 1) 100%);
+    margin-bottom: ;
+}
+
+body {
+    color: #434343;
+    font-size: 16px;
+    font-family: roboto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: cornflowerblue;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+/*div {
+    display: block;
+}*/
+ul {
+    list-style-type: unset;
+}
+
+#wrapper-content {
+    margin: 15px;
+}
+
+#wrapper-content div {
+    border-radius: 10px;
+}
+
+
+.header {
+    /*background-color: white;*/
+    background-image: url('mybackground.png');
+    max-width: 100%;
+    height: 40%;
+    background-position: -146% 73%;
+}
+
+/*.header-image {
+    width: auto;
+    float: left;
+    background-color: beige;
+}*/
+
+.my-image {
+    border-radius: 50%;
+    width: 20%;
+    margin: 15px;
+    float: left;
+}
+
+.header-profile {
+    width: 40%;
+    display: inline;
+}
+
+.header-profile h1 {
+    padding: 8%;
+}
+
+
+.about-me {
+    width: 65%;
+    float: left;
+    background-color: white;
+    padding: 20px;
+}
+
+.location {
+    width: 25%;
+    float: right;
+    background-color: white;
+    padding: 20px;
+}
+
+.left-block {
+    width: 65%;
+    float: left;
+    background-color: white;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.right-block {
+    width: 25%;
+    float: right;
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+}
+
+table tr td:first-child {
+    font-weight: bold;
+}
+
+.social-list-inline {
+    width: 20%;
+    text-align: center;
+}
